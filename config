@@ -1,0 +1,10 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "bendevtech"]
+	url = https://github.com/bendevtech16/to-do-html5-css3-website.git
+	fetch = +refs/heads/*:refs/remotes/bendevtech/*
