@@ -1,0 +1,309 @@
+/* definitions des polices du ,site*/
+
+
+@font-face {
+    font-family: 'alefregular';
+    src: url('./polices/webfontkit-20230228-055555/alef-regular-webfont.woff2') format('woff2'),
+         url('./polices/webfontkit-20230228-055555/alef-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'alefregular';
+    src: url('alef-regular-webfont.woff2') format('woff2'),
+         url('alef-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'cooper_hewittbold';
+    src: url('./polices/webfontkit-20230228-055555/cooperhewitt-bold-webfont.woff2') format('woff2'),
+         url('./polices/webfontkit-20230228-055555/cooperhewitt-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+} 
+
+
+@font-face {
+    font-family: 'bebas_neuebold';
+    src: url('bebasneue-bold-webfont.woff2') format('woff2'),
+         url('bebasneue-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'kaushan_scriptregular';
+    src: url('./polices/other-font/kaushanscript-regular-webfont.woff2') format('woff2'),
+         url('./polices/other-font/kaushanscript-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* élements principaux de la pages */
+
+body{
+    background-color: blanchedalmond;
+    font-family: 'WebFont', Arial, sans-serif;
+    color: #181818;
+   
+}
+
+p{
+    font-family: 'webfont', arial, "sans-serif";
+}
+
+.bloc-page{
+    width: 900px;
+
+    margin: auto;
+    position: absolute;
+}
+
+section h1, footer h1, nav{
+    font-family: 'bebas_neuebold',arial,"sans-serif";
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+header{
+    background-color: bisque;
+    border-bottom: 3px solid #c8bbbb;
+}
+
+#titre-principal{
+    display: inline-block;
+}
+#logo{
+    width: 100px;
+   
+}
+
+header h1{
+    font-family: 'cooper_hewittbold', serif;
+    font-size: 2.5em;
+    font-weight: normal;
+}
+#logo, header h1{
+    display: inline-block;
+    margin-bottom: 0px;
+}
+
+header h2{
+    font-family:'kaushan_scriptregular', serif ;
+    font-size: 1.1em;
+    margin-top: 0px;
+    font-weight: normal;
+}
+
+nav{
+    display: inline-block;
+    width: 740px;
+    text-align: right;
+
+}
+
+nav ul{
+    list-style-type: none;
+
+}
+
+nav li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav a{
+font-size: 1.3em;
+color:#181818 ;
+text-decoration: none;
+}
+
+nav a:hover{
+    color: rgba(255, 255, 255, 0.663);
+    background-color: rgb(210, 82, 82);
+}
+
+nav a:focus{
+    color: grey;
+}
+
+/* zone de la banniere */
+
+#banniere-image{
+
+    background: url(./images/banner.jpg) no-repeat ; 
+    margin-top: 15px;
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: 3px 4px 6px gray;
+    position: relative;
+    margin-bottom: 25px;
+
+}
+
+#banniere-description{
+    position: absolute;
+    bottom: 0;
+    border-radius: 0px 0px 5px 5px;
+   color: rgb(249, 249, 249);
+  width: 99.5%;
+  left: 0em;
+  height: 35px;
+  padding-top: 15px;
+  padding-left: 4px;
+  background-color: #181818;
+  opacity: 0.8;
+}
+
+.bouton-rouge{
+    font-size: 120%;
+    position: absolute;
+    bottom: 3.5px;
+    right: 10px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: capitalize;
+    background-color: red;
+    padding: 10px;
+    padding-right: 50px;
+    border-radius: 10px;
+    box-shadow: 4px 0px 2px rgba(26, 221, 124, 0.715);
+    opacity: 1;
+}
+
+
+#banniere-description img{
+    position: absolute;
+  height:30px;
+  bottom: 0px;
+  right: 9px;
+  padding: 10px;
+  border: 0px;
+
+}
+
+/* section style*/
+
+section{
+    background-color: rgb(183, 189, 214);
+    box-shadow: 3px 4px 6px rgb(193, 29, 29);
+    border-bottom: 3px groove;
+    border-bottom-color: #c8bbbb;
+    border-radius: 5px;
+   
+}
+article, aside{
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+
+}
+
+article{
+    width: 500px;
+    margin-right: 15px;
+}
+
+article p{
+    font-size: 0.9em;
+
+}
+
+aside{
+    background-color: rgb(89, 93, 93);
+    width: 300px;
+    position: relative;
+    box-shadow: 0px 2px 5px rgb(200, 61, 61);
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-style: 0.9em;
+    height: 510px;
+    margin: 3px;
+    margin-bottom: 10px;
+}
+
+#reseaux-sociaux{
+    position: absolute;
+    margin-bottom: 20px;
+}
+
+.ico-voyage{
+    vertical-align: middle;
+    margin-right: 8px;
+
+}
+aside img{
+    height: 48px;
+    width: 48px;
+    margin-right: 5px;
+    
+}
+
+#fleche-bulle-gauche{
+    height: 100px;
+    width: 100px;
+    left: -12px;
+}
+#photo-alice{
+    text-align: center;
+}
+
+aside h1{
+    text-align: center;
+    font-size: 1.8em;
+}
+
+/* *awesome footer*/
+footer{
+    margin-top: 10px;
+    background-color: rgb(246, 240, 192);
+    padding-top: 30px;
+    display: inline-block;
+    width: 900px;
+    
+}
+
+footer p, ul{
+    font-size: 0.8em;
+    font-family: 'alefregular', serif;
+    text-transform: capitalize;
+    
+}
+footer h1{
+    font-size: 1.1em;
+    text-align: center;
+    color: rgb(227, 34, 34);
+}
+
+#mes-photos img{
+    height: 100px;
+    width: 100px;
+    padding-right:3px ;
+    border: 3px rgb(1, 1, 1);
+}
+footer ul{
+    display: inline-block;
+}
+footer a{
+
+}
+
+footer p{
+    text-align: center;
+    font-family: alefregular, serif ;
+}
+
+#mes-photos, #mes-amis, #tweet{
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 10px;
+}
